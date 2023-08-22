@@ -21,17 +21,17 @@ namespace TestProject1
 
 
         [Test]
-        public void GetEmployeeShouldReturndifferentObjects()
+        public void GetemployeeShouldReturndifferentObjects()
         {
             //arrange
-            var Employee1 = GetEmployee("Adam", "Ślusarczyk", 80);
-            var Employee2 = GetEmployee("Adam", "Ślusarczyk", 80);
+            var employee1 = GetEmployee("Adam", "Ślusarczyk", 80);
+            var employee2 = GetEmployee("Adam", "Ślusarczyk", 80);
             //act
 
             //assert
-            Assert.AreEqual(Employee1.Name, Employee2.Name);
-            Assert.AreEqual(Employee1.Surname, Employee2.Surname);
-            Assert.AreEqual(Employee1.Age, Employee2.Age);
+            Assert.AreEqual(employee1.Name, employee2.Name);
+            Assert.AreEqual(employee1.Surname, employee2.Surname);
+            Assert.AreEqual(employee1.Age, employee2.Age);
 
         }
 
@@ -52,12 +52,12 @@ namespace TestProject1
         public void FLOAT_TEST()
         {
             //arrange
-            float number1 = 5.6f;
-            float number2 = 5.6f;
+            float number3 = 5.6f;
+            float number4 = 5.6f;
             //act
 
             //assert
-            Assert.AreEqual(number1, number2);
+            Assert.AreEqual(number3, number4);
 
         }
 
