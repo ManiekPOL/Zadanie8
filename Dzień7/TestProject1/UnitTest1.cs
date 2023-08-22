@@ -24,7 +24,7 @@ namespace TestProject1
         [Test]
         public void TestEmployee2()
         {
-            var employee = new Employee("Marek", "Nowak", 50);
+            var employee = new Employee("Marek", "Malina", 50);
             employee.AddScore(7);
             employee.AddScore(3);
             employee.AddScore(-5);
